@@ -52,4 +52,4 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-memcached-igbinary
                    "
 
-MANUAL_EXTENSIONS=('http' 'uri-template' 'xdebug')
+MANUAL_EXTENSIONS=('http' 'uri-template')

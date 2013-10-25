@@ -85,4 +85,4 @@ CONFIGURE_OPTIONS="--with-libdir=/lib/x86_64-linux-gnu
                    --enable-igbinary
                    "
 
-MANUAL_EXTENSIONS=('http' 'uri-template' 'xdebug')
+MANUAL_EXTENSIONS=('http' 'uri-template')

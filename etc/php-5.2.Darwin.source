@@ -52,5 +52,5 @@ CONFIGURE_OPTIONS="--libdir=/usr/local/lib
                    --with-curl=/usr/local/opt/curl
                    --enable-pcntl"
 
-MANUAL_EXTENSIONS=('apc' 'igbinary' 'http' 'uri-template' 'xdebug')
+MANUAL_EXTENSIONS=('apc' 'igbinary' 'http' 'uri-template')
 

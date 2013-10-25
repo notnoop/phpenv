@@ -58,4 +58,4 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/sbin/apxs
                    --enable-xhprof
                    "
 
-MANUAL_EXTENSIONS=('http' 'uri-template' 'xdebug')
+MANUAL_EXTENSIONS=('http' 'uri-template')

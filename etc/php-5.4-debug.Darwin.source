@@ -82,4 +82,4 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/sbin/apxs
                    --with-http-magic-mime=/usr/local/opt/libmagic
                    "
 
-MANUAL_EXTENSIONS=('ncurses' 'xdebug' 'uri-template')
+MANUAL_EXTENSIONS=('ncurses' 'uri-template')
