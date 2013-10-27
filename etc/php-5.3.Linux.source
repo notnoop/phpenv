@@ -2,7 +2,7 @@
 #
 
 export PHP_AUTOCONF=/usr/bin/autoconf2.13
-                   
+
 CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-zend-multibyte
                    --enable-phar
@@ -48,8 +48,6 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-apc
                    --with-ncurses
                    --enable-igbinary
-                   --enable-memcached
-                   --enable-memcached-igbinary
                    "
 
 MANUAL_EXTENSIONS=('http' 'uri-template')

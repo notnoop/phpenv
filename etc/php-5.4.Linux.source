@@ -3,7 +3,7 @@
 if [ -n $PHP_AUTOCONF ]; then
   unset PHP_AUTOCONF
 fi
-                   
+
 CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-zend-multibyte
                    --enable-phar
@@ -48,8 +48,6 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --with-readline
                    --enable-apc
                    --enable-igbinary
-                   --enable-memcached
-                   --enable-memcached-igbinary
                    "
 
 MANUAL_EXTENSIONS=('http' 'uri-template')
