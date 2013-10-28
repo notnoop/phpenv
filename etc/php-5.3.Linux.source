@@ -6,7 +6,7 @@ export PHP_AUTOCONF=/usr/bin/autoconf2.13
 CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-zend-multibyte
                    --enable-phar
-                   --disable-intl
+                   --enable-intl
                    --with-libxml-dir=/usr/local
                    --with-openssl
                    --with-kerberos=/usr
@@ -48,6 +48,10 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --enable-apc
                    --with-ncurses
                    --enable-igbinary
+                   --with-gmp
+                   --with-ldap
+                   --with-libdir=lib/x86_64-linux-gnu
+                   --with-pdo-pgsql
                    "
 
 MANUAL_EXTENSIONS=('http' 'uri-template')
