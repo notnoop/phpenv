@@ -45,7 +45,6 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --with-pdo-mysql
                    --with-mysql-sock=/var/run/mysqld/mysqld.sock
                    --with-readline
-                   --enable-apc
                    --with-ncurses
                    --enable-igbinary
                    --with-gmp
@@ -54,4 +53,4 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --with-pdo-pgsql
                    "
 
-MANUAL_EXTENSIONS=('http' 'uri-template')
+MANUAL_EXTENSIONS=('http' 'xdebug')
