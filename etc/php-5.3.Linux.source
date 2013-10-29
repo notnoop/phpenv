@@ -53,4 +53,4 @@ CONFIGURE_OPTIONS="--with-apxs2=/usr/bin/apxs2
                    --with-pdo-pgsql
                    "
 
-MANUAL_EXTENSIONS=('http' 'xdebug')
+MANUAL_EXTENSIONS=()

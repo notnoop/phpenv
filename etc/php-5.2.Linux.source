@@ -3,7 +3,7 @@
 # apt-get install libxml2-dev libpcre3-dev libbz2-dev libcurl4-openssl-dev libdb4.8-dev libjpeg-dev libpng12-dev libxpm-dev libfreetype6-dev libmysqlclient-dev postgresql-server-dev-9.1 libt1-dev libgd2-xpm-dev libgmp-dev libsasl2-dev libmhash-dev unixodbc-dev freetds-dev libpspell-dev libsnmp-dev libtidy-dev libxslt1-dev libmcrypt-dev libmemcached-dev
 
 export PHP_AUTOCONF=/usr/bin/autoconf2.13
-                   
+
 CONFIGURE_OPTIONS="--with-libdir=/lib/x86_64-linux-gnu
                    --with-apxs2=/usr/bin/apxs2
                    --enable-zend-multibyte
@@ -73,7 +73,7 @@ CONFIGURE_OPTIONS="--with-libdir=/lib/x86_64-linux-gnu
                    --with-pdo-odbc=unixODBC,/usr
                    --with-pdo-dblib=/usr
                    --with-pdo-sqlite
-                   --enable-force-cgi-redirect  
+                   --enable-force-cgi-redirect
                    --enable-fastcgi
                    --with-sqlite
                    --enable-ipv6
@@ -85,4 +85,4 @@ CONFIGURE_OPTIONS="--with-libdir=/lib/x86_64-linux-gnu
                    --enable-igbinary
                    "
 
-MANUAL_EXTENSIONS=('http' 'uri-template')
+MANUAL_EXTENSIONS=()
